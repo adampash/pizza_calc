@@ -4,14 +4,21 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thing</title>
+    <title>Pizza Calculator</title>
     <link rel="stylesheet" href="app.css" />
   </head>
 
   <body>
-    <h1>This is a thing</h1>
-    <div id="content"></div>
+    <h1>Pizza Calculator</h1>
+    <div id="content">
+      <form class="pizza_form" action="#">
+        <label>How many people are you feeding?
+          <input type="text" />
+        </label>
+      </form>
+      <div class="pizzas"></div>
+      <div class="deets">Round up for hungry folk; down for light eaters.</div>
+    </div>
     <script src="global.js"></script>
-    <script src="page.js"></script>
   </body>
 </html>

@@ -1,5 +1,11 @@
 # Browserify entry point for the global.js bundle (yay CoffeeScript!)
 
-Test = require './test.coffee'
+$ = require 'jquery'
 
-Test.init()
+$('.pizza_form').on 'submit', ->
+  people = parseInt $(@).find('input').val()
+  pizzas = people * 3/8
+  console.log pizzas
+  $('.pizzas').text("You need #{pizzas} pizzas")
+  $('.deets').show()
+  false
