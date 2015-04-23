@@ -6,6 +6,9 @@ rand = 0
 pizzas = 0
 $('.pizza_form').on 'submit', ->
   people = parseInt $(@).find('input').val()
+  unless people > 0
+    $('input').focus()
+    return false
   pizzas = Math.ceil(people * 3/8)
   animatePizzaText(pizzas)
   $('#content').addClass 'done'
