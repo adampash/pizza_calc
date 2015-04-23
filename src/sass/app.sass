@@ -68,7 +68,11 @@ html
     font-family: ProximaNovaCond-Semibold
     border: none
     &::placeholder
-      color: white
+      color: #333333
+    &:focus
+      &::placeholder
+        color: transparent
+
   button
     transition:all 0.8s ease
     cursor: pointer
@@ -77,14 +81,14 @@ html
     text-align: center
     margin: 0 auto
     display: block
-    box-shadow: 10px 10px 0px #cb262a
+    box-shadow: 8px 8px 0px #cb262a
     background: white
     outline: none
     border: 1px solid #231f20
-    width: 148px
-    padding: 9px
+    width: 125px
+    padding: 5px
     &:hover
-      box-shadow: 10px 10px 0px white
+      box-shadow: 8px 8px 0px white
       background: #cb262a
       color: white
 
