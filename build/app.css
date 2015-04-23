@@ -24,12 +24,16 @@ html{box-sizing:border-box}
 #content h2{color:#fff;text-align:center;font-size:34px;letter-spacing:.85px;margin-top:20px}
 #content div.num{color:#cb262a}
 #content .num,#content input[type=number]{background:0 0;outline:0;text-align:center;width:100%;height:165px;color:#fff;font-size:140px;font-family:ProximaNovaCond-Semibold;border:none}
-#content .num::-webkit-input-placeholder,#content input[type=number]::-webkit-input-placeholder{color:#fff}
-#content .num::-moz-placeholder,#content input[type=number]::-moz-placeholder{color:#fff}
-#content .num:-ms-input-placeholder,#content input[type=number]:-ms-input-placeholder{color:#fff}
-#content .num::placeholder,#content input[type=number]::placeholder{color:#fff}
-#content button{transition:all .8s ease;cursor:pointer;font-size:20px;text-align:center;margin:0 auto;display:block;box-shadow:10px 10px 0 #cb262a;background:#fff;outline:0;border:1px solid #231f20;width:148px;padding:9px}
-#content button:hover{box-shadow:10px 10px 0 #fff;background:#cb262a;color:#fff}
+#content .num::-webkit-input-placeholder,#content input[type=number]::-webkit-input-placeholder{color:#333}
+#content .num::-moz-placeholder,#content input[type=number]::-moz-placeholder{color:#333}
+#content .num:-ms-input-placeholder,#content input[type=number]:-ms-input-placeholder{color:#333}
+#content .num::placeholder,#content input[type=number]::placeholder{color:#333}
+#content .num:focus::-webkit-input-placeholder,#content input[type=number]:focus::-webkit-input-placeholder{color:transparent}
+#content .num:focus::-moz-placeholder,#content input[type=number]:focus::-moz-placeholder{color:transparent}
+#content .num:focus:-ms-input-placeholder,#content input[type=number]:focus:-ms-input-placeholder{color:transparent}
+#content .num:focus::placeholder,#content input[type=number]:focus::placeholder{color:transparent}
+#content button{transition:all .8s ease;cursor:pointer;font-size:20px;text-align:center;margin:0 auto;display:block;box-shadow:8px 8px 0 #cb262a;background:#fff;outline:0;border:1px solid #231f20;width:125px;padding:5px}
+#content button:hover{box-shadow:8px 8px 0 #fff;background:#cb262a;color:#fff}
 #content.done .result_container{display:block}
 #content.done .num,#content.done button.start_over,#content.done h2{transition:all .8s ease;-webkit-animation:fade-in 1s forwards;animation:fade-in 1s forwards;-webkit-transform:scale(1);transform:scale(1)}
 #content.done label h2{-webkit-animation:slide-left 1s forwards;animation:slide-left 1s forwards}
