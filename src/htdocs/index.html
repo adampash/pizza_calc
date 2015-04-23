@@ -9,15 +9,21 @@
   </head>
 
   <body>
-    <h1>Pizza Calculator</h1>
     <div id="content">
-      <form class="pizza_form" action="#">
-        <label>How many people are you feeding?
-          <input type="text" />
-        </label>
-      </form>
-      <div class="pizzas"></div>
-      <div class="deets">Round up for hungry folk; down for light eaters.</div>
+      <h3>The Official Gawker Media Pizza Calculator</h3>
+      <div class="result_container">
+        <h2 class="pizzas">Order About This Many Pizzas</h2>
+        <div class="num">20</div>
+      </div>
+      <div class="form_container">
+        <form class="pizza_form" action="#">
+          <label>
+            <h2>Number of Pizza Eaters</h2>
+            <input type="text" placeholder="X" />
+          </label>
+          <button type="submit">Enter</button>
+        </form>
+      </div>
     </div>
     <script src="global.js"></script>
   </body>
