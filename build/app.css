@@ -1,4 +1,4 @@
-.icon.-facebook:before,.icon.-linkedin:before,.icon.-pinterest:before,.icon.-twitter:before{speak:none;text-transform:none;font-variant:normal;line-height:1;font-weight:400;font-style:normal}
+.icon.-facebook:before,.icon.-linkedin:before,.icon.-pinterest:before,.icon.-twitter:before{line-height:1;speak:none;text-transform:none;font-style:normal;font-variant:normal}
 .icon.-facebook:before,.icon.-linkedin:before,.icon.-pinterest:before,.icon.-twitter:before,body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 body{color:#555;font-family:sans-serif;margin:0;padding:0}
 @font-face{font-family:ProximaNovaACond-Semibold;src:url(webfonts/24FCCC_3_0.eot);src:url(webfonts/24FCCC_3_0.eot?#iefix)format('embedded-opentype'),url(webfonts/24FCCC_3_0.woff)format('woff'),url(webfonts/24FCCC_3_0.ttf)format('truetype')}
@@ -7,14 +7,15 @@ code{background-color:#d3d3d3;border-radius:3px;font-family:monospace;padding:0 
 .icon.-facebook:before,.icon.-linkedin:before,.icon.-pinterest:before,.icon.-twitter:before{font-family:Post-Creator-Icons}
 @font-face{font-family:ProximaNovaACond-Semibold;src:url(webfonts/24FCCC_3_0.eot);src:url(webfonts/24FCCC_3_0.eot?#iefix)format('embedded-opentype'),url(webfonts/24FCCC_3_0.woff)format('woff'),url(webfonts/24FCCC_3_0.ttf)format('truetype')}
 @font-face{font-family:Post-Creator-Icons;src:url(fonts/Post-Creator-Icons.eot);src:url(fonts/Post-Creator-Icons.eot?#iefix)format('embedded-opentype'),url(fonts/Post-Creator-Icons.woff)format('woff'),url(fonts/Post-Creator-Icons.ttf)format('truetype'),url(fonts/Post-Creator-Icons.svg#Post-Creator-Icons)format('svg');font-weight:400;font-style:normal}
-.icon.-facebook:before{content:"\e001"}
-.icon.-linkedin:before{content:"\e002"}
-.icon.-pinterest:before{content:"\e003"}
-.icon.-twitter:before{content:"\e004"}
+.icon.-facebook:before{content:"\e001";font-weight:400}
+.icon.-linkedin:before{content:"\e002";font-weight:400}
+.icon.-pinterest:before{content:"\e003";font-weight:400}
+.icon.-twitter:before{content:"\e004";font-weight:400}
 iframe{border:none}
 div.wide{width:640px}
 html{box-sizing:border-box}
 *,:after,:before{box-sizing:inherit;margin:0;padding:0}
+h2,h3{font-weight:400}
 #content{background:#231f20;width:100%;max-width:800px;height:355px;padding:25px 40px;font-family:ProximaNovaCond-Semibold;font-weight:400;position:relative}
 #content .form_container{position:absolute;left:0;width:100%}
 #content .result_container{width:100%;position:absolute;left:0}
