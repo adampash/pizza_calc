@@ -70,6 +70,7 @@ html
     font-family: ProximaNovaCond-Semibold
     border: none
   button
+    transition:all 0.8s ease
     cursor: pointer
     font-family: ProximaNovaCond-Semibold
     font-size: 20px
@@ -90,7 +91,7 @@ html
 #content.done
   .result_container
     display: block
-  h2, .num
+  h2, .num, button.start_over
     transition:all 0.8s ease
     @include animation('fade-in 1s forwards')
     -webkit-transform: scale(1)
@@ -98,7 +99,8 @@ html
     transform: scale(1)
   label h2
     @include animation('slide-left 1s forwards')
-
+  button.submit
+    display: none
   input[type=text]
     transition:all 1s ease
     @include animation('fade-out 1s forwards')

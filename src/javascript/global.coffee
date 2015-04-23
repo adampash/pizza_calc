@@ -12,6 +12,10 @@ $('.pizza_form').on 'submit', ->
   $('.deets').show()
   false
 
+$('.start_over').on 'click', ->
+  $('.done').removeClass('done')
+  $('input').val('').focus()
+
 animatePizzaText = (pizzas) ->
   length = "#{pizzas}".length
   if length is 1
