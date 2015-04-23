@@ -53,7 +53,7 @@ html
     font-size: 34px
     letter-spacing: 0.85px
     margin-top: 20px
-  input[type=text], .num
+  input[type=number], .num
     background: transparent
     outline: none
     text-align: center
@@ -96,7 +96,7 @@ html
     @include animation('slide-left 1s forwards')
   button.submit
     display: none
-  input[type=text]
+  input[type=number]
     transition:all 1s ease
     @include animation('fade-out 1s forwards')
     -webkit-transform: scale(0.3)
@@ -128,8 +128,9 @@ html
     padding: 25px 10px
     h3
       font-size: 12px
+      padding-bottom: 20px
     h2
-      font-size: 18px
+      font-size: 23px
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
   .foo
@@ -141,3 +142,8 @@ html
 
 @font-face
   font-family: 'ProximaNovaCond-Semibold';src: url('http://x.kinja-static.com/assets/fonts/proxima/ProximaNovaCondBold-6e302c8978b1bd9d453fba318a1fa572.woff')
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+  -webkit-appearance: none
+  margin: 0
