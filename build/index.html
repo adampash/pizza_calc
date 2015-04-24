@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza Calculator</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <div id="content">
+      <h3>The Official Gawker Media Pizza Calculator</h3>
+      <div class="result_container">
+        <h2 class="pizzas">Order About This Many Pizzas</h2>
+        <div class="num">20</div>
+        <button class="start_over">Start over</button>
+      </div>
+      <div class="form_container">
+        <form class="pizza_form" action="#">
+          <label>
+            <h2>Number of Pizza Eaters</h2>
+            <input type="number" pattern="\d*" placeholder="0" />
+          </label>
+          <button class="submit" type="submit">Enter</button>
+        </form>
+      </div>
+    </div>
+    <script src="global.js"></script>
+  </body>
+</html>
